@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, #root, .widget{
+    height: 100vh;
+    width: 100%;
+}
+
+.widget{
+    background-color: #F7F8F9;
+    min-height: 750px;;
+}

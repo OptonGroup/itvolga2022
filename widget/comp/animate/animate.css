@@ -1,0 +1,21 @@
+.anim .circle{
+    position: relative;
+    width: 132px;
+    height: 132px;
+    background-color: #F7F8F9;
+    box-shadow: -9px -9px 16px #FFFFFF, 9px 9px 16px rgba(163, 177, 198, 0.325148);
+    margin: 100px calc(50% - 132px / 2) 32px calc(50% - 132px / 2);
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.anim .circle img{
+    width: 68px;
+    margin: 26.5px 31.5px 31.5px 31.5px;
+    animation: rotate 1s;
+}
